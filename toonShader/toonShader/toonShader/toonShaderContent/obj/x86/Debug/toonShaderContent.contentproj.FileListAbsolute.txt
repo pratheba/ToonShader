@@ -1,0 +1,2 @@
+C:\Users\pratheba\2-study\toonShader\toonShader\toonShaderContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\important\toonShader\toonShader\toonShaderContent\obj\x86\Debug\toonShaderContent.contentprojResolveAssemblyReference.cache

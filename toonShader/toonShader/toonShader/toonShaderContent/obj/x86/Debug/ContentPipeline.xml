@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>tooneffect.fx</Source>
+      <Name>tooneffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\tooneffect.xnb</Output>
+      <Time>2012-07-06T17:14:04.9903492-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Arial-bold.spritefont</Source>
+      <Name>Arial-bold</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\Arial-bold.xnb</Output>
+      <Time>2012-06-11T23:10:23.6162825-07:00</Time>
+    </Item>
+    <Item>
+      <Source>p1_wedge.fbx</Source>
+      <Name>p1_wedge</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\p1_wedge.xnb</Output>
+      <Time>2012-06-11T23:14:28.4672872-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\p1_wedge_0.xml</Key>
+        <Value>2012-07-06T13:01:06.7213891-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\wedge_p1_diff_v1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Name>Ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\Ship.xnb</Output>
+      <Time>2012-06-18T00:28:28.7354943-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Ship_0.xml</Key>
+        <Value>2012-07-06T13:01:09.3416511-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\ShipDiffuse_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>wedge_p1_diff_v1.tga</Source>
+      <Name>wedge_p1_diff_v1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\wedge_p1_diff_v1.xnb</Output>
+      <Time>2012-06-11T23:15:37.8432553-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SketchTexture.bmp</Source>
+      <Name>SketchTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\SketchTexture.xnb</Output>
+      <Time>2012-06-12T19:48:40.3658628-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ShipDiffuse.tga</Source>
+      <Name>ShipDiffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\ShipDiffuse.xnb</Output>
+      <Time>2012-06-18T00:28:28.7984979-07:00</Time>
+    </Item>
+    <Item>
+      <Source>p1_wedge.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\p1_wedge_0.xml</Output>
+      <Time>2012-06-11T23:14:28.4672872-07:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\pratheba\2-study\toonShader\toonShader\textures\wedge_p1_diff_v1.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\wedge_p1_diff_v1_0.xnb</Output>
+      <Time>2012-06-11T23:15:37.8432553-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Ship_0.xml</Output>
+      <Time>2012-06-18T00:28:28.7354943-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ShipDiffuse.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\ShipDiffuse_0.xnb</Output>
+      <Time>2012-06-18T00:28:28.7984979-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PostprocessEffect.fx</Source>
+      <Name>PostprocessEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\PostprocessEffect.xnb</Output>
+      <Time>2012-07-07T03:53:57.5253635-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\pratheba\2-study\toonShader\toonShader\toonShaderContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\pratheba\2-study\toonShader\toonShader\toonShaderContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\pratheba\2-study\toonShader\toonShader\toonShader\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-06T12:51:13.5719668-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
